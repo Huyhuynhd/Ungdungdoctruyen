@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ManDangKy">
+<TextView
+    android:textColor="#2196F3"
+    android:layout_marginTop="100dp"
+    android:layout_gravity="center"
+    android:textStyle="bold"
+    android:textSize="40sp"
+    android:text="Đăng ký"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+</TextView>
+
+    <EditText
+        android:drawableRight="@drawable/ic_taikhoan"
+        android:id="@+id/dktaikhoan"
+        android:hint="Tài khoản"
+        android:layout_marginTop="90dp"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <EditText
+        android:drawableRight="@drawable/ic_matkhau"
+        android:id="@+id/dkmatkhau"
+        android:layout_marginTop="20dp"
+        android:hint="Mật khẩu"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <EditText
+        android:drawableRight="@drawable/ic_email"
+        android:id="@+id/dkemail"
+        android:layout_marginTop="20dp"
+        android:hint="Email"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content">
+    </EditText>
+    <Button
+        android:id="@+id/dkdangky"
+        android:text="Đăng ký"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:id="@+id/dkdangnhap"
+        android:text="Trở về đănh nhập"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Button>
+</LinearLayout>
